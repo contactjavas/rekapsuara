@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">rekapsuara</string>
+    <string name="title_activity_main">rekapsuara</string>
+    <string name="package_name">com.rekapsuara.app</string>
+    <string name="custom_url_scheme">com.rekapsuara.app</string>
+</resources>
