@@ -35,6 +35,8 @@ export class LoginPage implements OnInit {
   }
 
   async login() {
+    console.log(this.loginForm.value);
+    
     this.loginService('login', this.loginForm.value);
   }
 

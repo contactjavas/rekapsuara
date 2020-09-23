@@ -33,7 +33,7 @@ export class AuthService {
   login(data: LoginData): Observable<Response> {
     return this.http
       .post<Response>(
-        this.appService.apiUrl + "/token",
+        this.appService.jwtAuthUrl + "/token",
         data,
         this.appService.httpOptions
       )
